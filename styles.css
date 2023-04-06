@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f0f0f0;
+  }
+  
+  header {
+    background-color: #9A71E8;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #7A56D6;
+    padding: 1rem;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #ccc;
+  }
+  
+  section {
+    padding: 2rem;
+    background-color: white;
+    margin: 1rem;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    color: #9A71E8;
+  }
+  
+  footer {
+    background-color: #9A71E8;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  /* CSS para el contenedor */
+.container {
+    max-width: 960px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px; /* Espacio alrededor del contenido */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Sombra alrededor del contenedor */
+  }
+  
+  /* CSS para la imagen */
+  img {
+    position: fixed; /* Fija la imagen en la pantalla */
+    bottom: 0; /* La imagen estará pegada al borde inferior de la pantalla */
+    left: 0; /* La imagen estará pegada al borde izquierdo de la pantalla */
+    width: 100%; /* La imagen ocupará todo el ancho disponible */
+    z-index: -1; /* Coloca la imagen detrás del contenido */
+  }
+  
